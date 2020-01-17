@@ -16,5 +16,17 @@ namespace XUnitTestProject1
 
             Assert.Equal(expected, z);
         }
+
+        [Fact]
+        public void Test2()
+        {
+            int x = 1;
+            int y = 1;
+
+            int z = x + y;
+            int expected = 3;
+
+            Assert.Equal(expected, z);
+        }
     }
 }
